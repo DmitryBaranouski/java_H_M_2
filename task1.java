@@ -6,7 +6,7 @@ import java.util.logging.*;
 public class task1 {
     public static void main(String[] args) throws IOException {
         Logger logger = Logger.getLogger(task1.class.getName());
-        FileHandler fh = new FileHandler("logTask2.xml");
+        FileHandler fh = new FileHandler("logTask1.xml");
         logger.addHandler(fh);
         XMLFormatter xml = new XMLFormatter();
         fh.setFormatter(xml);
